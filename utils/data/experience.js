@@ -3,7 +3,8 @@ export const experiences = [
     id: 1,
     title: 'Software Engineer - Intern',
     company: "Wobble Lab",
-    duration: "(Mar 2025 - Sept 2025)"
+    duration: "(Mar 2025 - Sept 2025)",
+    address: "Bhilai, Chhattisgarh"
   },
   // {
   //   id: 2,
