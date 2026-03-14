@@ -1,4 +1,5 @@
 @use "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Whisper&family=Vujahday+Script&display=swap');
 
 :root {
   --foreground-rgb: rgb(211, 216, 232);
@@ -8,6 +9,10 @@
   :root {
     --foreground-rgb: 255, 255, 255;
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -35,3 +40,28 @@ body {
   // padding-top: calc(var(--index) * 2.5rem);
   top: calc(var(--index) * 4rem);
 }
+
+// .signature-name {
+//   font-family: "Brush Script MT", "Segoe Script", cursive;
+//   font-size: 34px;
+// }
+
+.homemade-apple-regular {
+  font-family: "Homemade Apple", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.whisper-regular {
+  font-family: "Whisper", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.vujahday-script-regular {
+  font-family: "Vujahday Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+}
+
