@@ -2,7 +2,7 @@
     <img height="100" src="https://github.com/said7388/developer-portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
 </p>
 
-<h1 align="center">Developer Portfolio</h1>
+<h1 align="center">Dev Portfolio</h1>
 
 <p align="center">
   <strong>A modern, responsive, and customizable portfolio template for developers and freelancers</strong>
@@ -32,21 +32,21 @@ A professional portfolio template built with **Next.js 16**, **React 19**, and *
 
 ---
 
-## Demo :movie_camera:
+## Demo 🎥
 
 <p align="center">
   <img src="./public/image/screen.png" alt="Portfolio Screenshot" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://abusaid.netlify.app/" target="_blank">
+  <a href="https://ankit-portfolio-ivory.vercel.app/" target="_blank">
     <strong>🚀 View Live Demo</strong>
   </a>
 </p>
 
 ---
 
-## Features :sparkles:
+## Features ✨
 
 - ✅ **Cutting-Edge Tech Stack**: Built with Next.js 16, React 19, and Tailwind CSS 4
 - ✅ **Fully Responsive**: Optimized for all devices and screen sizes
@@ -62,39 +62,39 @@ A professional portfolio template built with **Next.js 16**, **React 19**, and *
 
 ---
 
-## Next.js 16 Features Used :rocket:
+## Next.js 16 Features Used 🚀
 
 This portfolio leverages the latest Next.js 16 and React 19 capabilities:
 
-| Feature                  | Benefit                                                      |
-| ------------------------ | ------------------------------------------------------------ |
+| Feature                        | Benefit                                                      |
+| ------------------------------ | ------------------------------------------------------------ |
 | **App Router**           | Modern routing with layouts and nested routes                |
 | **Server Components**    | Improved performance with zero JavaScript for static content |
 | **Server Actions**       | Simplified form handling in contact page                     |
 | **Metadata API**         | Enhanced SEO with type-safe metadata                         |
-| **Image Optimization**   | Automatic image optimization with `next/image`               |
-| **Font Optimization**    | Automatic font loading with `next/font`                      |
+| **Image Optimization**   | Automatic image optimization with `next/image`             |
+| **Font Optimization**    | Automatic font loading with `next/font`                    |
 | **Streaming & Suspense** | Better loading states and progressive rendering              |
 | **React 19 Features**    | Actions, use hook, and improved hydration                    |
 
 ---
 
-## Sections :bookmark:
+## Sections 🔖
 
-| Section           | Description                                         |
-| ----------------- | --------------------------------------------------- |
-| 🦸 **Hero**       | Eye-catching introduction with animated elements    |
-| 👤 **About Me**   | Personal information and professional summary       |
-| 💼 **Experience** | Work history and professional accomplishments       |
-| 🛠️ **Skills**     | Technical skills with animated marquee display      |
-| 🚀 **Projects**   | Showcase your best work with descriptions and links |
-| 🎓 **Education**  | Academic background and certifications              |
-| 📝 **Blog**       | Latest articles from dev.to (auto-fetched)          |
-| 📧 **Contact**    | Get in touch form with email/Telegram integration   |
+| Section                | Description                                         |
+| ---------------------- | --------------------------------------------------- |
+| 🦸**Hero**       | Eye-catching introduction with animated elements    |
+| 👤**About Me**   | Personal information and professional summary       |
+| 💼**Experience** | Work history and professional accomplishments       |
+| 🛠️**Skills**   | Technical skills with animated marquee display      |
+| 🚀**Projects**   | Showcase your best work with descriptions and links |
+| 🎓**Education**  | Academic background and certifications              |
+| 📝**Blog**       | Latest articles from dev.to (auto-fetched)          |
+| 📧**Contact**    | Get in touch form with email/Telegram integration   |
 
 ---
 
-## Table of Contents :scroll:
+## Table of Contents 📜
 
 - [Overview](#overview)
 - [Demo](#demo-movie_camera)
@@ -116,10 +116,10 @@ This portfolio leverages the latest Next.js 16 and React 19 capabilities:
 
 ---
 
-## Tech Stack :computer:
+## Tech Stack 💻
 
-| Technology       | Version | Purpose                                   |
-| ---------------- | ------- | ----------------------------------------- |
+| Technology             | Version | Purpose                                   |
+| ---------------------- | ------- | ----------------------------------------- |
 | **Next.js**      | 16.0.1  | React framework with App Router           |
 | **React**        | 19.2.0  | UI component library with latest features |
 | **Tailwind CSS** | 4.x     | Utility-first CSS framework               |
@@ -131,14 +131,14 @@ This portfolio leverages the latest Next.js 16 and React 19 capabilities:
 
 ---
 
-## Installation :arrow_down:
+## Installation ⬇️
 
 ### Prerequisites
 
 Before you begin, ensure you have the following installed on your machine:
 
-| Tool                   | Minimum Version | Download Link                               |
-| ---------------------- | --------------- | ------------------------------------------- |
+| Tool                         | Minimum Version | Download Link                            |
+| ---------------------------- | --------------- | ---------------------------------------- |
 | **Node.js**            | v18.17.0+       | [Download](https://nodejs.org/en/download/) |
 | **Git**                | Latest          | [Download](https://git-scm.com/downloads)   |
 | **pnpm** (recommended) | Latest          | [Install](https://pnpm.io/installation)     |
@@ -157,7 +157,7 @@ pnpm --version  # or npm --version
 
 ---
 
-## Getting Started :dart:
+## Getting Started 🎯
 
 ### 1. Fork and Clone the Repository
 
@@ -242,7 +242,7 @@ docker run -p 3000:3000 --name portfolio-prod developer-portfolio:prod
 
 ---
 
-## Usage :joystick:
+## Usage 🕹
 
 ### Environment Variables Configuration
 
@@ -266,8 +266,8 @@ EMAIL_ADDRESS=your_email@gmail.com
 
 #### Variable Descriptions:
 
-| Variable              | Required | Description                                  |
-| --------------------- | -------- | -------------------------------------------- |
+| Variable                | Required | Description                                  |
+| ----------------------- | -------- | -------------------------------------------- |
 | `NEXT_PUBLIC_GTM`     | No       | Google Tag Manager ID for analytics tracking |
 | `NEXT_PUBLIC_APP_URL` | Yes      | Your portfolio's public URL                  |
 | `TELEGRAM_BOT_TOKEN`  | No       | Token for Telegram bot notifications         |
@@ -307,8 +307,8 @@ export const personalData = {
 
 #### 💼 Additional Data Files
 
-| File               | Purpose                                        |
-| ------------------ | ---------------------------------------------- |
+| File                 | Purpose                                        |
+| -------------------- | ---------------------------------------------- |
 | `experience.js`    | Your work experience and job history           |
 | `projects-data.js` | Portfolio projects with descriptions and links |
 | `skills.js`        | Technical skills and competencies              |
@@ -325,11 +325,11 @@ profile: "/your-image-name.png"; // or .jpg, .webp
 
 ---
 
-## Deployment :rocket:
+## Deployment 🚀
 
 ### 🚀 Deploy to Vercel (Recommended)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/said7388/developer-portfolio)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ankit23kumar/dev-portfolio)
 
 **Manual Deployment:**
 
@@ -350,7 +350,7 @@ profile: "/your-image-name.png"; // or .jpg, .webp
 
 ### 🌐 Deploy to Netlify
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/said7388/developer-portfolio)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ankit23kumar/dev-portfolio)
 
 **Manual Deployment:**
 
@@ -377,7 +377,7 @@ docker-compose -f docker-compose.prod.yml up -d
 
 ---
 
-## Tutorials :wrench:
+## Tutorials 🔧
 
 ### 📧 Gmail App Password Setup
 
@@ -429,12 +429,12 @@ The portfolio automatically fetches and displays your latest public articles. No
 
 ---
 
-## Packages Used :package:
+## Packages Used 📦
 
 ### Core Dependencies
 
-| Package         | Version | Purpose                                                      |
-| --------------- | ------- | ------------------------------------------------------------ |
+| Package               | Version | Purpose                                                      |
+| --------------------- | ------- | ------------------------------------------------------------ |
 | **next**        | ^16.0.1 | Latest React framework with App Router and Server Components |
 | **react**       | ^19.2.0 | JavaScript library with improved concurrent rendering        |
 | **react-dom**   | ^19.2.0 | React package for working with the DOM                       |
@@ -443,8 +443,8 @@ The portfolio automatically fetches and displays your latest public articles. No
 
 ### UI & Animations
 
-| Package                | Purpose                                    |
-| ---------------------- | ------------------------------------------ |
+| Package                      | Purpose                                    |
+| ---------------------------- | ------------------------------------------ |
 | **lottie-react**       | Lightweight animations with Lottie files   |
 | **react-fast-marquee** | Smooth scrolling marquee component         |
 | **react-icons**        | Popular icon library with easy integration |
@@ -452,8 +452,8 @@ The portfolio automatically fetches and displays your latest public articles. No
 
 ### Functionality
 
-| Package                    | Purpose                           |
-| -------------------------- | --------------------------------- |
+| Package                          | Purpose                           |
+| -------------------------------- | --------------------------------- |
 | **axios**                  | Promise-based HTTP client         |
 | **nodemailer**             | Email sending functionality       |
 | **@emailjs/browser**       | Client-side email service         |
@@ -463,7 +463,7 @@ The portfolio automatically fetches and displays your latest public articles. No
 
 ---
 
-## Troubleshooting :wrench:
+## Troubleshooting 🔧
 
 ### Common Issues and Solutions
 
@@ -563,7 +563,7 @@ pnpm install
 
 ---
 
-## Contributing :handshake:
+## Contributing 🤝
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature/AmazingFeature`
@@ -573,21 +573,21 @@ pnpm install
 
 ---
 
-## License :page_with_curl:
+## License 📃
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## Support :coffee:
+## Support ☕️
 
-- ⭐ [Star the repository](https://github.com/said7388/developer-portfolio/stargazers)
-- � [Report bugs](https://github.com/said7388/developer-portfolio/issues)
-- � [Suggest features](https://github.com/said7388/developer-portfolio/discussions)
+- ⭐ [Star the repository](https://github.com/ankit23kumar/dev-portfolio/stargazers)
+- � [Report bugs](https://github.com/ankit23kumar/dev-portfolio/issues)
+- � [Suggest features](https://github.com/ankit23kumar/dev-portfolio/discussions)
 
 ---
 
-![GitHub stars](https://img.shields.io/github/stars/said7388/developer-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/said7388/developer-portfolio?style=social)
-![GitHub issues](https://img.shields.io/github/issues/said7388/developer-portfolio)
-![GitHub license](https://img.shields.io/github/license/said7388/developer-portfolio)
+![GitHub stars](https://img.shields.io/github/stars/ankit23kumar/dev-portfolio?style=social)
+![GitHub forks](https://img.shields.io/github/forks/ankit23kumar/dev-portfolio?style=social)
+![GitHub issues](https://img.shields.io/github/issues/ankit23kumar/dev-portfolio)
+![GitHub license](https://img.shields.io/github/license/ankit23kumar/dev-portfolio)
